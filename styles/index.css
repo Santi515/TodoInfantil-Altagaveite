@@ -1,0 +1,146 @@
+body{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+header{
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.862);
+    border: solid 5px;
+    border-color: rgb(252, 97, 97);
+    border-radius: 2em;
+}
+
+header img{
+    float: left;
+    margin: 20px;
+    height: 80px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 42px;
+    color: rgba(9, 9, 9, 0.886);
+}
+
+main section{
+    background-color: rgba(255, 255, 255, 0.89);
+    border: solid 5px;
+    border-color: rgb(252, 97, 97);
+    border-radius: 2em;
+    margin-left: 170px;
+    padding-left: 0px;
+    padding-top: 15px;
+    width: 1220px;
+    height: 2100px;
+}
+
+.productos{
+    display: grid;
+    grid-column: auto;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 109px;
+    width: 1220px;
+    height: 1700px;
+}
+
+.precio{
+    float: right;
+    margin-top: 0px;
+    margin-right: 40px;
+    padding-left: 15px;
+    background-color: white;
+    height: auto;
+    width: 300px;
+    border: solid 3px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 25px;
+}
+
+article h3{
+    margin-top: 9px;
+    font-size: larger;
+}
+
+article button{
+    border: none;
+    height: 60px;
+    width: 60px;
+    cursor:pointer;
+}
+
+article button img{
+    height: 42px;
+    margin-top: 10px;
+    border: none;
+}
+
+section h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+h1 em{
+    color: grey ;
+}
+
+label{
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+input{
+    margin: 10px;
+    text-align: center;
+    width: 160px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px;
+    border-radius: 4px;
+    border-color: rgb(252, 97, 97);
+}
+
+article h2{
+    padding-top: 10px;
+    font-weight: light;
+}
+
+main img{
+    border: solid 5px;
+    border-radius: 1em;
+    border-color: rgb(68, 68, 68);
+}
+
+#foto{
+    background-image: url(https://www.megacumples.com/media/box_cpequeno-salon-de-fiestas.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+    border: solid 3px;
+    border-color: rgb(175, 39, 39);
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+footer h2{
+    font-size: 40px;
+}
+
+footer img{
+    margin: 7px;
+    height: 60px;
+    width: 60px;
+}
